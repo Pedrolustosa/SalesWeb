@@ -23,6 +23,9 @@ body {
     width: 100%;
 }
 
+.imagecarousel{
+    height: 850px;
+}
 /* QR code generator */
 #qrCode {
     margin: 15px;

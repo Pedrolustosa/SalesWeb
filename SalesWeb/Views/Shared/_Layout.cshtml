@@ -6,6 +6,11 @@
     <title>@ViewData["Title"] - SalesWeb</title>
 
     <environment include="Development">
+        <link rel="shortcut icon" href="~/images/logoico.png" type="image/x-icon">
+        <link rel="icon" href="~/images/logoico.png" type="image/x-icon">
+    </environment>
+
+    <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-sandstone.css" />
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
@@ -26,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">SalesWeb</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" ><img src="~/images/logo.png" style="height:70px; width:70px;" class="navbar-brand"/></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">

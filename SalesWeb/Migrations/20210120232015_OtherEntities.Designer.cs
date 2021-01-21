@@ -56,9 +56,9 @@ namespace SalesWeb.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime>("BaseSalary");
+                    b.Property<double>("BaseSalary");
 
-                    b.Property<double>("BirthDade");
+                    b.Property<DateTime>("BirthDate");
 
                     b.Property<int?>("DepartmentId");
 

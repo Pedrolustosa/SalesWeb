@@ -16,8 +16,8 @@ namespace SalesWeb.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true),
                     Email = table.Column<string>(nullable: true),
-                    BaseSalary = table.Column<DateTime>(nullable: false),
-                    BirthDade = table.Column<double>(nullable: false),
+                    BaseSalary = table.Column<double>(nullable: false),
+                    BirthDate = table.Column<DateTime>(nullable: false),
                     DepartmentId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
