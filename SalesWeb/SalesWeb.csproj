@@ -7,6 +7,8 @@
   <ItemGroup>
     <Compile Remove="Migrations\20210121004113_OtherEntities2.cs" />
     <Compile Remove="Migrations\20210121004113_OtherEntities2.Designer.cs" />
+    <Compile Remove="Migrations\20210121113520_DepartmentForeignKey.cs" />
+    <Compile Remove="Migrations\20210121113520_DepartmentForeignKey.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
