@@ -27,11 +27,11 @@ namespace SalesWeb.Data
 			Department d4 = new Department(4, "Develops");
 			Department d5 = new Department(5, "Books");
 
-			Seller s1 = new Seller(1, "Pedro 0", "pedroeternalss@gmail.com", new DateTime(1996, 10, 21), 1000.0, d1);
-			Seller s2 = new Seller(2, "Pedro 1", "pedroeternalss@gmail.com", new DateTime(1996, 10, 21), 1000.0, d2);
-			Seller s3 = new Seller(3, "Pedro 2", "pedroeternalss@gmail.com", new DateTime(1996, 10, 21), 1000.0, d3);
-			Seller s4 = new Seller(4, "Pedro 3", "pedroeternalss@gmail.com", new DateTime(1996, 10, 21), 1000.0, d4);
-			Seller s5 = new Seller(5, "Pedro 4", "pedroeternalss@gmail.com", new DateTime(1996, 10, 21), 1000.0, d5);
+			Seller s1 = new Seller(1, "Pedro 0", "pedroeternalss@gmail.com", 1000.0, new DateTime(0001, 05, 01), d1);
+			Seller s2 = new Seller(2, "Pedro 1", "pedroeternalss@gmail.com", 1000.0, new DateTime(0001, 05, 01), d2);
+			Seller s3 = new Seller(3, "Pedro 2", "pedroeternalss@gmail.com", 1000.0, new DateTime(0001, 05, 01), d3);
+			Seller s4 = new Seller(4, "Pedro 3", "pedroeternalss@gmail.com", 1000.0, new DateTime(0001, 05, 01), d4);
+			Seller s5 = new Seller(5, "Pedro 4", "pedroeternalss@gmail.com", 1000.0, new DateTime(0001, 05, 01), d5);
 
 			SalesRecord r1 = new SalesRecord(1, new DateTime(2020, 09, 25), 11000.0, SaleStatus.Billed, s1);
 			SalesRecord r2 = new SalesRecord(2, new DateTime(2020, 09, 25), 11000.0, SaleStatus.Billed, s2);
