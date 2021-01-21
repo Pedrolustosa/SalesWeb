@@ -1,8 +1,10 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,500;1,600&display=swap');
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Fraunces', serif;
 }
 
 /* Wrapping element */
@@ -11,6 +13,17 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/*Custom Scroolbar*/
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#04519b, #044687 60%, #033769);
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
+}
+/*Custom Scroolbar*/
 
 /* Carousel */
 .carousel-caption p {
